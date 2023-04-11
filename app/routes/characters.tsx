@@ -45,7 +45,7 @@ export default function Characters() {
 
           {query && characters.length === 0 && (
             <h2 className="not-found">
-              No characters found with name {query} in Marvel's database.
+              No characters found with name starting with <strong>"{query}"</strong> in Marvel's database.
             </h2>
           )}
         </div>

@@ -1,0 +1,33 @@
+.comics-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-left: 16px;
+  border-left: 1px solid white;
+}
+
+.comics-results {
+  height: 1100px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.comics-list-item {
+  display: flex;
+  flex-direction: row;
+  margin-right: 16px;
+}
+
+.comics-info {
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: justify;
+}
+
+.comics-image {
+  width: 220px;
+}

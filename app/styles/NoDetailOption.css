@@ -1,0 +1,20 @@
+.no-detail-option-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-left: 16px;
+  border-left: 1px solid white;
+  justify-content: center;
+  color: #EC1D24;
+  text-align: center;
+}
+
+.error-header {
+  margin-bottom: 32px;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.error-detail {
+  font-size: 28px;
+}

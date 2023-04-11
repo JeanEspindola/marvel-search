@@ -1,0 +1,34 @@
+.events-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-left: 16px;
+  border-left: 1px solid white;
+}
+
+.events-results {
+  height: 1100px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.events-list-item {
+  display: flex;
+  flex-direction: row;
+  margin-right: 16px;
+}
+
+.events-info {
+  margin-left: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: justify;
+}
+
+.events-image {
+  height: 220px;
+  width: 220px;
+}

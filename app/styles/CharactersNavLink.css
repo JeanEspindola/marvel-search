@@ -1,0 +1,21 @@
+.navigation-item {
+  cursor: pointer;
+  height: 30px;
+  padding: 4px;
+}
+
+.navigation-item:hover {
+  background-color: white;
+  color: black;
+  border-radius: 16px;
+  opacity: 0.8;
+  transition: opacity 200ms ease 0s;
+}
+
+.navigation-item.active {
+  background-color: #3b1dec;
+  color: white;
+  font-weight: bold;
+  border-radius: 16px;
+  opacity: 0.8;
+}

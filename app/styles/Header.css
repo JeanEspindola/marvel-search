@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16px 8px;
+  border-bottom: 1px solid white;
+}
+
+.left-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+
+.right-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-title {
+  margin-bottom: 8px;
+}
+
+.header-author {
+  text-align: right;
+  margin-bottom: 8px;
+}

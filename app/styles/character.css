@@ -1,0 +1,60 @@
+.character-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 100%
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1 / 7;
+  padding-left: 16px;
+  border-left: 1px solid white;
+}
+
+.detail-header {
+  text-align: center;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.detail-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.character-image {
+  max-width: 70%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  width: 100%;
+}
+
+.detail-name {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.detail-description {
+  text-align: justify;
+  margin-bottom: 16px;
+}
+
+.navigation-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-transform: capitalize;
+}
+
+.details-outlet {
+  display: flex;
+  grid-column: 7 / 13;
+  margin-left: 8px;
+  margin-right: 16px;
+}

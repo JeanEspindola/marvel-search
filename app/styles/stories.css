@@ -1,0 +1,13 @@
+.stories-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-left: 16px;
+  border-left: 1px solid white;
+}
+
+.stories-results {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

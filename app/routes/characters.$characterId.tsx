@@ -19,12 +19,9 @@ export const loader: LoaderFunction = async ({
 }) => {
   const id = params.characterId
 
-  console.log({id})
   invariant(typeof id === 'string', 'character id is required')
 
   const response = await getCharacterById(id)
-
-  console.log(response)
 
   if (response.code === 404) {
     throw new Response("We couldn't find that character", {

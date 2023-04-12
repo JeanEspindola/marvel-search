@@ -12,9 +12,11 @@ export function Header() {
   return (
     <div className="header">
       <div className="left-header">
-        <NavLink to="/characters" title="Characters Search">
-          <h1>/Characters</h1>
-        </NavLink>
+        <h1>
+          <NavLink to="/characters" title="Characters Search">
+            /Characters
+          </NavLink>
+        </h1>
       </div>
       <div className="right-header">
         <h1 className="header-title">Marvel Search App</h1>
